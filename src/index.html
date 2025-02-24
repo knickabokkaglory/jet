@@ -1,17 +1,93 @@
 ---
 layout: base.html
 title: Home
+description: Come read about our garden!
 ---
+<div class="min-h-screen bg-green-100 p-8">
 <div class="max-w-lg mx-auto mt-6 px-4 text-center">
-  <h1 class="font-semibold text-3xl">It’s (j)ust (e)leventy and (t)ailwind</h1>
-  <p>…OK, and a few other things; it's still *really* small though.</p>
+  <h1 class="font-semibold text-3xl">Welcome!</h1>
+  <p>We're so glad you're interested in learning about our garden!</p>
 </div>
-<p class="flex items-center justify-center max-w-md mt-6 mx-auto px-4">
-  <a href="https://11ty.dev/" class="bg-gray-900 inline-block mr-6"><img src="img/11ty.svg" alt="Eleventy" class="h-24" /></a>
-  and
-  <a href="https://tailwindcss.com/" class="ml-6"><img src="img/tailwindcss.svg" alt="Tailwind CSS" class="w-64" /></a>
-</p>
-<p class="flex justify-center max-w-md mt-16 mx-auto">
-  <a href="https://github.com/marcamos/jet#readme" class="mr-6 underline">View on GitHub</a>
-  <a href="https://marcamos-jet.netlify.app/" class="underline">View on Netlify</a>
-</p>
+<div class="max-w-lg mx-auto mt-6 px-4 text-center">
+  <p>Our garden, like other gardens, changes with the seasons. To get started, pick a season below:</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto max-w-7xl">
+    <!-- Spring Card -->
+    <div class="overflow-hidden rounded-xl bg-blue-200 shadow-md">
+      <a href="/spring">
+        <div class="md:flex">
+          <div class="md:shrink-0">
+            <img
+              class="h-48 w-full object-cover md:h-full md:w-48"
+              src="/img/spring.jpg"
+              alt="Spring"
+            />
+          </div>
+          <div class="p-8">
+            <div class="text-sm font-semibold tracking-wide text-indigo-500 uppercase">Spring</div> 
+            <p class="mt-1 block text-lg leading-tight font-medium text-white hover:underline">Spring is a time for excited new things!</p> 
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <!-- Winter Card -->
+    <div class="overflow-hidden rounded-xl bg-blue-200 shadow-md">
+      <a href="/winter">
+        <div class="md:flex">
+          <div class="md:shrink-0">
+            <img
+              class="h-48 w-full object-cover md:h-full md:w-48"
+              src="/img/spring.jpg"
+              alt="Winter"
+            />
+          </div>
+          <div class="p-8">
+            <div class="text-sm font-semibold tracking-wide text-indigo-500 uppercase">Winter</div>
+            <p class="mt-1 block text-lg leading-tight font-medium text-white hover:underline">Winter is a time for hibernation</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <!-- Summer Card -->
+    <div class="overflow-hidden rounded-xl bg-blue-200 shadow-md">
+      <a href="/summer">
+        <div class="md:flex">
+          <div class="md:shrink-0">
+            <img
+              class="h-48 w-full object-cover md:h-full md:w-48"
+              src="/img/spring.jpg"
+              alt="Summer"
+            />
+          </div>
+          <div class="p-8">
+            <div class="text-sm font-semibold tracking-wide text-indigo-500 uppercase">Summer</div>
+            <p class="mt-1 block text-lg leading-tight font-medium text-white hover:underline">When the plants are drinking in all the sunlight</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <!-- Fall Card -->
+    <div class="overflow-hidden rounded-xl bg-blue-200 shadow-md">
+      <a href="/fall">
+        <div class="md:flex">
+          <div class="md:shrink-0">
+            <img
+              class="h-48 w-full object-cover md:h-full md:w-48"
+              src="/img/spring.jpg"
+              alt="Fall"
+            />
+          </div>
+          <div class="p-8">
+            <div class="text-sm font-semibold tracking-wide text-indigo-500 uppercase">Fall</div>
+            <p class="mt-1 block text-lg leading-tight font-medium text-white hover:underline">When the leaves start turning</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
