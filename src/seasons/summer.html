@@ -1,0 +1,19 @@
+---
+layout: seasons.html
+season: Summer
+description: Come read about our garden!
+---
+<div class="min-h-screen bg-green-100 p-8">
+<div class="max-w-lg mx-auto mt-6 px-4 text-center">
+  <h1 class="font-semibold text-3xl">Summer</h1>
+<ul>
+  {% for plant in collections.plant | filterByTag("spring") %}
+    <li>
+      <a href="{{ plant.url }}">{{ plant.data.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+</ul>
+</ul>
+</div>
+</div>  
